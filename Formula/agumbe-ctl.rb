@@ -1,22 +1,22 @@
 class AgumbeCtl < Formula
   desc "Operator CLI for the Agumbe platform"
   homepage "https://github.com/agumbe-ai/agumbe-ctl-releases"
-  version "0.7.0"
+  version "0.7.1"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/agumbe-ai/agumbe-ctl-releases/releases/download/v0.7.0/agumbe-ctl-darwin-amd64.tar.gz"
-      sha256 "8831c5cccd312103ae86947f17ad393cc305675edda71b9574bab374e75420d1"
+      url "https://github.com/agumbe-ai/agumbe-ctl-releases/releases/download/v0.7.1/agumbe-ctl-darwin-amd64.tar.gz"
+      sha256 "2f12df7004245374746ded6bb8d03d8e398cb793ccbe4666a2155c3ffc621c74"
     elsif Hardware::CPU.arm?
-      url "https://github.com/agumbe-ai/agumbe-ctl-releases/releases/download/v0.7.0/agumbe-ctl-darwin-arm64.tar.gz"
-      sha256 "31c77d9c0aacb0d29fedfc34793329627da8b16fe4e9fcc51294c70dd18b0571"
+      url "https://github.com/agumbe-ai/agumbe-ctl-releases/releases/download/v0.7.1/agumbe-ctl-darwin-arm64.tar.gz"
+      sha256 "009ad6f9573db647223ba05b61f61c27865b2f08d03a92502ee87985c0f8284f"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/agumbe-ai/agumbe-ctl-releases/releases/download/v0.7.0/agumbe-ctl-linux-amd64.tar.gz"
-      sha256 "dc9f94ce57103e29d023f919af67fbbed8f5aae240c625982921625ba456a8f8"
+      url "https://github.com/agumbe-ai/agumbe-ctl-releases/releases/download/v0.7.1/agumbe-ctl-linux-amd64.tar.gz"
+      sha256 "346ddf9da5992517ea3e62c719ea2a715721c59ae002e68d56157ca8f184772c"
     end
   end
 
